@@ -1,0 +1,9 @@
+1º Importação do banco
+    - Crie um banco de dados utf-8_unicode_ci
+    - Depois clique em importar, e selecione o arquivo SQL que está na pasta do projeto
+    - Concluido
+2º Configuração
+    - Configure o arquivo env.php;
+    - Na configuração será necessario o nome que foi dado ao banco e as configurações de autenticação do banco, como usuario e senha
+3º Apache , PHP & MySql
+    - Para a aplicação funcionar será necessario apenas o apache, php e o Mysql

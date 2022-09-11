@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-easyjur {
+    width: 100vw;
+    height: 100px;
+    background-color: #161F3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content {
+    width: 80vw;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.title-easyjur {
+    display: flex;
+    align-items: center;
+}
+
+.buttos-user  {
+    display: flex;
+    align-items: center;
+}
+
+.btn-easyjur {
+    margin-right: 10px;
+}
+
+.title-easyjur h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.img-easyjur img {
+    width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+    color: #F02040;
+}
+
+.content-box {
+    margin-top: 70px;
+}
+
+.list-item-menu {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.button-insert {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.custom-status-pendente{
+    border-radius: 5%;
+    background-color: rgb(224, 156, 7);
+    font-weight: bold;
+}
+
+.custom-status-concluido{
+    border-radius: 5%;
+    background-color: rgb(38, 160, 14);
+    font-weight: bold;
+}
+
+.menu-link-logged {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.menu-link-logged:hover {
+    text-decoration: none;
+    color: #F02040;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+@media only screen and (max-width: 820px) {
+    .title-easyjur {
+        display: none;
+    }
+
+    .navbar-content {
+        width: 100vw;
+    }
+    
+}
